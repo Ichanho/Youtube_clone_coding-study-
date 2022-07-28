@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html long='en'>
+    <head>
+        <meta charset="UTP-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- CSS 파일 불러오기 -->
+        <link rel="stylesheet" href="style.css">
+        <!-- 웹폰트 링크 : Roboto -->
+        <!-- <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> -->
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
+        <!-- 웹 폰트 다운 완료 -->
+
+        <title>ch_youtube</title>
+        <script src="https://kit.fontawesome.com/af4dbae094.js" crossorigin="anonymous"></script>
+    </head>
+
+    <body>
+        <!-- Header -->
+        <header>
+            <div class="logo">
+                <i class="fa-brands fa-youtube"></i>
+                <span class="title">Youtube</span>
+            </div>
+            <div class="icon">
+                <i class="fas fa-search"></i>
+                <i class="fas fa-ellipsis-v"></i>
+            </div>
+        </header>
+
+        <!-- Video Player -->
+        <section class="player">
+            <video controls src="video/Relaxing - 1049.mp4"></video>
+        </section>
+
+        <section class="infoAndUpNext">
+            <!-- Video Info -->
+        <section class="info">
+            <div class="metadata">
+                <ul class="hashtags">
+                    <li>#Frist</li>
+                    <li>#Project</li>
+                    <li>#Little Youtube</li>
+                </ul>
+
+                <div class="titleAndButton">
+                    <span class="title">
+                        첫번쨰 프로젝트 : Html / CSS 를 응응한 유튜브 페이지 작성
+                    </span>
+                    
+                    <button class="moreinfo">
+                        <i class="fa-solid fa-angle-down"></i>
+                    </button>
+                </div>
+
+                <span class="views">1M views in month</span>
+
+            </div>
+        <!-- Video Actions -->
+            <div class="actions">
+                <li><button><i class="fa-solid fa-thumbs-up"></i>Like</button></li>
+                <li><button><i class="fa-solid fa-thumbs-down"></i>Dislike</button></li>
+                <li><button><i class="fa-solid fa-share"></i>Share</button></li>
+                <li><button><i class="fa-solid fa-plus"></i>Save</button></li>
+                <li><button><i class="fa-solid fa-flag"></i>Report</button></li>
+            </div>
+        <!-- Channel Description -->
+            <div class="channel">
+                <div class="metadata">
+                    <img src="image/men-2763099_1280.png">
+                    <div class="info">
+                        <span class="name">Leechanho 이찬호</span>
+                        <span class="subscribers">123,456 subscribers</span>
+                    </div>
+                </div>
+
+                <button class="subscriber">subscribers</button>
+            </div>
+        </section>
+
+         <!-- Next recommend Video -->
+        <section class="UpNext">
+            <span class="title">Up next</span>
+            <ul>
+                <li class="item">
+                    <div class="imag"><img src="image/next_video1.jpg" alt=""></div>
+                    <div class="info">
+                        <span class="title">다음 영상 no 1 짦은 제목</span>
+                        <span class="name">Leechanho 이찬호</span>
+                        <span class="views">12K views</span>
+                    </div>
+                    <button class="moreinfo">
+                        <i class="fa-solid fa-angle-down"></i>
+                    </button>
+                </li>
+
+                <li class="item">
+                    <div class="imag"><img src="image/next_video2.png" alt=""></div>
+                    <div class="info">
+                        <span class="title">다음 영상 no 2 제목이 길 경우 이렇게 길어질 수 있으므로 줄이는 모습 구현</span>
+                        <span class="name">Leechanho 이찬호</span>
+                        <span class="views">42K views</span>
+                    </div>
+                    <button class="moreinfo">
+                        <i class="fa-solid fa-angle-down"></i>
+                    </button>
+                </li>
+
+                <li class="item">
+                    <div class="imag"><img src="image/next_video3.jpg" alt=""></div>
+                    <div class="info">
+                        <span class="title">다음 영상 no 3</span>
+                        <span class="name">Leechanho 이찬호</span>
+                        <span class="views">65K views</span>
+                    </div>
+                    <button class="moreinfo">
+                        <i class="fa-solid fa-angle-down"></i>
+                    </button>
+                </li>
+            </ul>
+        </section>
+        </section>
+    </body>
+
+</html>
